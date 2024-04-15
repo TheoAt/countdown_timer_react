@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import Countdown from './components/Countdown';
 
@@ -6,10 +5,7 @@ export default function App() {
 
   const handleTimeFinish = () => {
     // Must call an API saved or DB saved
-    setIsFinished(true)
   }
-
-  const [isFinish, setIsFinished] = useState(false)
 
   return (
     <div className='main-container'>
