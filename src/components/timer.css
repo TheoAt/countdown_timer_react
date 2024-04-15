@@ -1,0 +1,33 @@
+.countdown-container {}
+
+.timer {
+    font-size: var(--spacing-large);
+    font-weight: bold;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.timer-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
+    margin-top: var(--spacing-medium);
+}
+
+.timer-buttons button {
+    padding: var(--spacing) var(--spacing-medium);
+    font-family: var(--secondary-font);
+    font-size: var(--spacing-medium);
+    font-weight: 600;
+    background-color: var(--light-color);
+    border: 1px solid var(--dark-color);
+    color: var(--outremer);
+    transition: all .4s ease;
+}
+
+.timer-buttons button:hover {
+    background-color: var(--outremer);
+    color: var(--light-color);
+    cursor: pointer;
+}
